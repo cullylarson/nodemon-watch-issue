@@ -1,0 +1,14 @@
+{
+    "name": "nodemon-watch-issue",
+    "version": "0.0.1",
+    "description": "Reproduce an error with nodemon watch and Docker.",
+    "scripts": {
+        "start": "nodemon --watch server server/app.js",
+        "start:legacy": "nodemon -L --watch server server/app.js"
+    },
+    "author": "Cully Larson",
+    "dependencies": {},
+    "devDependencies": {
+        "nodemon": "^2.0.6"
+    }
+}
