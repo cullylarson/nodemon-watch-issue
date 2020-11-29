@@ -7,4 +7,4 @@ services:
     working_dir: "/home/node/app"
     volumes:
       - "./:/home/node/app:ro"
-    command: "npm run start:legacy"
+    command: "npm run start"
